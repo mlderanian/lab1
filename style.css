@@ -3,6 +3,7 @@ header {
     font-weight: bold condensed;
     color: #701770; 
     font-size: 25px;
+    padding:50px;
   }
   body {
     font-family: Futura, Trebuchet MS;
@@ -16,3 +17,37 @@ header {
     color: #c51cbd; 
     font-size: 25px;
   }
+p {
+  font-family: Futura, Trebuchet MS;
+  font-weight: bold condensed;
+  color: #360c34; 
+  font-size: 25px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;;
+}
+  
+  #content {
+    padding:3px;
+}
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 10px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+
+   border: 1px solid #666; /* dark outline */
+}
